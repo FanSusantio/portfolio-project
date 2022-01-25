@@ -1,9 +1,53 @@
-h1 {
-  font-family: "Roboto Condensed", Sans-Serif;
-  font-weight: 700;
-  font-size: 35px;
+:root {
+  --heading-font-family: "Roboto Condensed", Sans-Serif;
+  --default-font-family: "Cabin", Sans-Serif;
+  --background: #fbf7f5;
+  --button-background-color: #e2604f;
+  --button-font-color: #fbf7f5;
+  --main-font-color: #181816;
 }
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+
+h1 {
+  font-size: 96px;
+}
+
 p {
-  font-family: "Cabin", Sans-Serif;
   font-size: 16px;
+}
+
+.hero {
+  background: var(--background);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
+.btn-branding {
+  color: var(--button-font-color);
+  background: var(--button-background-color);
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 15px 30px;
 }
