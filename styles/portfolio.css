@@ -1,8 +1,8 @@
 :root {
-  --heading-font-family: "Roboto Condensed", Sans-Serif;
-  --default-font-family: "Cabin", Sans-Serif;
+  --heading-font-family: "Roboto ", Sans-Serif;
+  --default-font-family: "Monserrat", Sans-Serif;
   --background: #122466;
-  --button-background-color: #122466;
+  --button-background-color: #2348cc;
   --button-branding-background-color: #f42f4b;
   --button-font-color: #fefeff;
   --main-font-color: #181816;
@@ -45,7 +45,7 @@ p {
 
 .hero {
   color: #fefeff;
-  background: var(--hero-background);
+  background: var(--background);
   text-align: center;
   padding: 160px 20px;
 }
@@ -57,7 +57,7 @@ p {
 }
 
 .hero h1 {
-  color: #fefeff;
+  color: #fc87e2;
 }
 .hero h2 {
   font-size: 24px;
