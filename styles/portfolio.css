@@ -1,10 +1,19 @@
 :root {
   --heading-font-family: "Roboto Condensed", Sans-Serif;
   --default-font-family: "Cabin", Sans-Serif;
-  --background: #fbf7f5;
-  --button-background-color: #e2604f;
-  --button-font-color: #fbf7f5;
+  --background: #122466;
+  --button-background-color: #122466;
+  --button-branding-background-color: #f42f4b;
+  --button-font-color: #fefeff;
   --main-font-color: #181816;
+  --hero-background: linear-gradient(
+    120deg,
+    #21103d 5%,
+    #122466 17%,
+    #2348cc 38%,
+    #f42f4b 85%,
+    #fc87e2 105%
+  );
 }
 
 body {
@@ -35,7 +44,8 @@ p {
 }
 
 .hero {
-  background: var(--background);
+  color: #fefeff;
+  background: var(--hero-background);
   text-align: center;
   padding: 160px 20px;
 }
@@ -43,10 +53,15 @@ p {
 .hero p {
   font-size: 36px;
   margin: 0;
+  color: #fefeff;
 }
 
+.hero h1 {
+  color: #fefeff;
+}
 .hero h2 {
   font-size: 24px;
+  color: #fefeff;
 }
 
 .btn-branding {
@@ -59,7 +74,7 @@ p {
 
 .btn-branding-outline {
   color: var(--button-font-color);
-  background: var(--button-background-color);
+  background: var(--button-branding-background-color);
   border-radius: 30px;
   font-size: 18px;
   padding: 15px 30px;
